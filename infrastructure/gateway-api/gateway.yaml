@@ -34,7 +34,7 @@ spec:
                   containers:
                     - name: envoy
                       ports:
-                        - containerPort: 80
+                        - containerPort: 10080
                           hostPort: 80
 ---
 # GatewayClass — controller Envoy Gateway mengacu ke EnvoyProxy config
