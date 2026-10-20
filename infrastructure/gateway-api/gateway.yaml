@@ -15,7 +15,6 @@ spec:
   provider:
     type: Kubernetes
     kubernetes:
-      useListenerPortAsContainerPort: true
       envoyService:
         type: ClusterIP
       envoyDeployment:
